@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: notes
-            expected-sender: ST76GCMGTQ92M1BDBG96Z0SW4Y87WAZYX9CKMDF9
+            expected-sender: STWK8KWEXA276MVSBJ1TFDEGERKG3QT1STD1E7BE
             cost: 1273
             path: contracts/notes.clar
             anchor-block-only: true
