@@ -1,0 +1,16 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build All",
+      "type": "shell",
+      "command": "clarinet check && cd frontend && npm run build",
+      "group": "build",
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "args": []
+    }
+  ]
+}
